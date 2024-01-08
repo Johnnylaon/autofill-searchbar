@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:focus {
+	outline: none;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(to right, #02f3df, #5866c3);
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.search-container {
+	text-align: center;
+}
+
+input {
+	width: 300px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	padding: 8px;
+	cursor: pointer;
+}
+
+ul li:hover {
+	background-color: #ea5819;
+	color: #fff;
+}
